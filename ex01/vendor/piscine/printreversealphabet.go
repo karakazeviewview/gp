@@ -4,8 +4,8 @@ import (
 	"ft"
 )
 
-func Printalphabet() {
-	for alp := 'a'; alp <= 'z'; alp++{
+func Printreversealphabet() {
+	for alp := 'z'; alp >= 'a'; alp--{
 		ft.PrintRune(alp)
 	}
 	ft.PrintRune('\n')
