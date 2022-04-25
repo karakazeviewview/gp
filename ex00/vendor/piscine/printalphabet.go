@@ -4,7 +4,7 @@ import (
 	"ft"
 )
 
-func Printalphabet() {
+func PrintAlphabet() {
 	for alp := 'a'; alp <= 'z'; alp++{
 		ft.PrintRune(alp)
 	}
