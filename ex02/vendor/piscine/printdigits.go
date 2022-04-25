@@ -4,7 +4,7 @@ import (
 	"ft"
 )
 
-func Printdigits() {
+func PrintDigits() {
 	for alp := '0'; alp <= '9'; alp++{
 		ft.PrintRune(alp)
 	}

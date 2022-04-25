@@ -5,5 +5,5 @@ import (
 )
 
 func main(){
-	piscine.Printreversealphabet()
+	piscine.PrintReverseAlphabet()
 }

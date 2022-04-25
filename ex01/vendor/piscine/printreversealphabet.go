@@ -4,7 +4,7 @@ import (
 	"ft"
 )
 
-func Printreversealphabet() {
+func PrintReverseAlphabet() {
 	for alp := 'z'; alp >= 'a'; alp--{
 		ft.PrintRune(alp)
 	}
